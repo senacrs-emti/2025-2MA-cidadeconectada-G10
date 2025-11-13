@@ -51,6 +51,10 @@ main{
     height: 1300px;
 }
 
+a{
+  text-decoration: none;
+}
+
 h1{
   text-align: center;
   padding-top: 40px;
@@ -99,6 +103,11 @@ h1{
   flex-direction: column; /* Organiza os itens em coluna (imagem e texto) */
   justify-content: center; /* Centraliza verticalmente */
   align-items: center; /* Centraliza horizontalmente */
+
+  transition: all 0.5s ease;
+}
+.card:hover{
+  transform: scale(1.1);
 }
 
 #card1{
