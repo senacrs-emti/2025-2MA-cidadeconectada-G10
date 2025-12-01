@@ -121,3 +121,9 @@ button:hover {
 .b6 { width: 280px; height: 280px; background: #a5b4fc; top: 10%; left: 85%; animation-delay: 1.5s; }
 .b7 { width: 130px; height: 130px; background: #99f6e4; top: 80%; left: 5%; animation-delay: 1.8s; }
 .b8 { width: 210px; height: 210px; background: #fecaca; top: 30%; left: 5%; animation-delay: 2.1s; }
+
+
+a{
+  text-decoration: none;
+  color: white;
+}

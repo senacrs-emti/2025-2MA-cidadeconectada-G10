@@ -8,30 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/secundario.css">
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <nav>
-          <ul>
-            <li><button class="dicas">
-              <img src="./img/lampada.png" alt="">
-            </button></li>
-            <li><button class="personalizar">
-              <img src="./img/paleta.png" alt="">
-            </button></li>
-            <li><button class="conta">
-              <img src="./img/conta.png" alt="">
-            </button></li>
-          </ul>
-        </nav>
+        
       </header>
+
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
 
       <main>
         <h1>NOME DA CATEGORIA</h1>
         <div class="container"></div>
       </main>
     
+      <script src="./js/secundario.js"></script>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
 </body>
 </html>
