@@ -55,12 +55,6 @@
 
         <input type="checkbox" id="nenhuma" name="necessidades" value="nenhuma">
         <label for="nenhuma">Nenhuma</label>
-        <input type="checkbox" name="necessidades[]" value="1">
-          <input type="checkbox" name="necessidades[]" value="2">
-          <input type="checkbox" name="necessidades[]" value="3">
-          <input type="checkbox" name="necessidades[]" value="4">
-          <input type="checkbox" name="necessidades[]" value="5">
-
       </div>
 
       <h2>RESPONSÁVEL / ACOMPANHANTE (OPCIONAL)</h2>
@@ -74,12 +68,13 @@
       <label for="emailResp">E-MAIL</label>
       <input type="email" id="emailResp" name="emailResp">
 
-      <button type="submit"><a href="principal.html">CADASTRAR</a></button>
+      <!-- BOTÃO CORRETO -->
+      <button type="submit" class="btn-cadastrar">CADASTRAR</button>
 
     </form>
   </main>
-  <form id="cadastroForm" action="salvar.php" method="POST">
-  <script src="script.js"></script>
+
+<script src="cadastro.js"></script>
 
 </body>
 </html>

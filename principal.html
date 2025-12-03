@@ -17,7 +17,15 @@
   </header>
 
   <main>
-    <h1>BEM VINDO(A), NOME</h1>
+    
+<h1 id="tituloPrincipal">BEM VINDO(A),</h1>
+    <script>
+  const nomeUser = localStorage.getItem("usuarioNome") || "Usuário";
+  document.getElementById("tituloPrincipal").innerText =
+    `BEM VINDO(A), ${nomeUser.toUpperCase()}`;
+</script>
+
+
 
     <div vw class="enabled">
       <div vw-access-button class="active"></div>

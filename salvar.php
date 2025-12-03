@@ -31,3 +31,4 @@ if (isset($_POST["nome"]) && isset($_POST["idade"])) {
 }
 $conn->close();
 ?>
+
